@@ -1,0 +1,39 @@
+{
+  "travel_date": "2026-08-16",
+  "recommended_city": "부산",
+  "weather_summary": "맑고 푸른 하늘과 시원한 바닷바람이 불어와 해변과 야외 활동을 즐기기에 완벽한 날씨입니다.",
+  "festivals": [
+    "부산바다축제",
+    "부산국제코미디페스티벌"
+  ],
+  "reason": "8월 중순의 부산은 해운대와 광안리에서 활기찬 여름 바다와 낭만적인 야경을 만끽할 수 있는 대표 여행지입니다. 도심 속 시원한 해수욕과 다채로운 해산물 먹거리, 해안 산책로가 어우러져 특별한 여름 휴가를 즐기기에 최적입니다.",
+  "restaurants": [
+    {
+      "name": "전설의우대갈비 해운대 ( Legendary Ribs Haeundae )",
+      "address": "대한민국 부산광역시 해운대구 해운대해변로 277 3층",
+      "rating": 4.9
+    },
+    {
+      "name": "나마스테 해운대",
+      "address": "대한민국 부산광역시 해운대구 해운대해변로265번길 7",
+      "rating": 4.8
+    },
+    {
+      "name": "강갈비탕KANG GALBI-TANG (Traditional Korean Foods restaurant)",
+      "address": "대한민국 부산광역시 부산진구 새싹로 33 1층",
+      "rating": 5
+    },
+    {
+      "name": "일류고기 전포본점",
+      "address": "대한민국 부산광역시 부산진구 서전로 63-1",
+      "rating": 5
+    },
+    {
+      "name": "이재모피자 본점",
+      "address": "대한민국 부산광역시 중구 광복중앙로 31",
+      "rating": 4.4
+    }
+  ],
+  "gemini_model": "gemini-flash-latest",
+  "errors": []
+}
