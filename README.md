@@ -38,3 +38,21 @@
 💾 JSON 파일 저장
    ↓
 📝 Markdown 보고서 저장
+
+✨ 2. 주요 기능
+📅 CLI 인자 -date "YYYY-MM-DD" 형태로 여행 날짜 입력
+✅ 입력 날짜 형식 검증
+🔐 .env 파일에서 API Key 및 모델 정보 로드
+🤖 Gemini API를 이용한 한국 여행지 추천
+🧩 Gemini 결과를 JSON 형태로 구조화
+📌 JSON에서 추천 도시 정보 추출
+📍 Google Places API를 이용한 장소 검색
+🍽️ 추천 지역의 맛집 5곳 검색
+🔗 Gemini API와 Google Places API의 결과 연결
+💾 결과를 results 폴더에 JSON 파일로 저장
+📝 결과를 Markdown 보고서로 저장
+⚠️ 오류 발생 시 errors 배열에 기록
+🔄 Gemini 모델 호출 실패 시 다른 모델로 자동 대체
+⏱️ 429(Too Many Requests) 오류 발생 시 재시도
+🛟 재시도 후에도 실패할 경우 fallback 수행
+🔒 API Key를 코드에 직접 작성하지 않고 환경변수로 관리
